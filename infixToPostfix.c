@@ -65,4 +65,11 @@ int main() {
     printf("Postfix expression: %s\n", postfix);
     
     return 0;
+
 }
+
+
+
+/* OUTPUT:- 
+Enter infix expression: A+B-C+(E^D)-F
+Postfix expression: AB+C-ED+F-  */
