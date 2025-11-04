@@ -35,8 +35,6 @@ int main() {
                 printf("Invalid choice! Please try again.\n");
         }
     }
-}
-
 void push() {
     int value;
     if(top == MAX - 1) {
@@ -68,3 +66,66 @@ void display() {
     }
 }
 
+/* OUTPUT:-
+Stack Operations Menu:
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 1
+Enter the value to push: 1
+1 pushed to stack     
+
+Stack Operations Menu:
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 1
+Enter the value to push: 2
+2 pushed to stack
+
+Stack Operations Menu:
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 1
+Enter the value to push: 3
+3 pushed to stack
+
+Stack Operations Menu:
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 2
+3 popped from stack
+
+Stack Operations Menu:
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 1
+Enter the value to push: 4
+4 pushed to stack
+
+Stack Operations Menu:
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 3
+Stack elements are:
+4
+2
+1
+
+Stack Operations Menu:
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 4
+} */
